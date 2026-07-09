@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/dz36-bibreselect-phonebook/static/css/main.72eaedb4.css",
-    "main.js": "/dz36-bibreselect-phonebook/static/js/main.88d3b340.js",
-    "static/media/noContactsYet.jpg": "/dz36-bibreselect-phonebook/static/media/noContactsYet.984719bde3449d0091cf.jpg",
-    "index.html": "/dz36-bibreselect-phonebook/index.html",
-    "main.72eaedb4.css.map": "/dz36-bibreselect-phonebook/static/css/main.72eaedb4.css.map",
-    "main.88d3b340.js.map": "/dz36-bibreselect-phonebook/static/js/main.88d3b340.js.map"
+    "main.css": "/dz39-workingwithclients-contbook/static/css/main.ed87e044.css",
+    "main.js": "/dz39-workingwithclients-contbook/static/js/main.1863e412.js",
+    "static/media/fa-solid-900.woff2": "/dz39-workingwithclients-contbook/static/media/fa-solid-900.ac1705cea99da8956021.woff2",
+    "static/media/fa-brands-400.woff2": "/dz39-workingwithclients-contbook/static/media/fa-brands-400.b15ea767a5cd39c641f0.woff2",
+    "static/media/fa-regular-400.woff2": "/dz39-workingwithclients-contbook/static/media/fa-regular-400.c81757be2051deb920ac.woff2",
+    "static/media/fa-v4compatibility.woff2": "/dz39-workingwithclients-contbook/static/media/fa-v4compatibility.cb2708b9c106180792fe.woff2",
+    "index.html": "/dz39-workingwithclients-contbook/index.html",
+    "main.ed87e044.css.map": "/dz39-workingwithclients-contbook/static/css/main.ed87e044.css.map",
+    "main.1863e412.js.map": "/dz39-workingwithclients-contbook/static/js/main.1863e412.js.map"
   },
   "entrypoints": [
-    "static/css/main.72eaedb4.css",
-    "static/js/main.88d3b340.js"
+    "static/css/main.ed87e044.css",
+    "static/js/main.1863e412.js"
   ]
 }

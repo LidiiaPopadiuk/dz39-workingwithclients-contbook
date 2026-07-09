@@ -77,7 +77,11 @@ export const AuthForm = () => {
               <button
                 type="button"
                 className="register-trigger"
-                onClick={() => setIsRegister(true)}
+                onClick={() => {
+                  setIsRegister(true);
+                  setLoginError("");
+                  setRegisterError("");
+                }}
               >
                 Sign Up
               </button>
@@ -128,7 +132,11 @@ export const AuthForm = () => {
               <button
                 type="button"
                 className="login-trigger"
-                onClick={() => setIsRegister(false)}
+                onClick={() => {
+                  setIsRegister(false);
+                  setLoginError("");
+                  setRegisterError("");
+                }}
               >
                 Sign In
               </button>

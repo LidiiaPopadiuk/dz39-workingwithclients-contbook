@@ -1,14 +1,14 @@
 import { useDispatch, useSelector } from 'react-redux'
-// import { addContact } from '../redux/contacts/contactsSlice'
-import { addContact } from '../redux/contacts/contactsOperation'
-import { getContacts } from '../redux/contacts/contactsSelectors'
+import { addContact } from '../../redux/contacts/contactsOperation'
 import x from './Form.module.css'
-import { selectAll } from '../redux/contacts/contactsSlice'
+import { selectAll } from '../../redux/contacts/contactsSlice'
+import { useState } from 'react'
 
 
 export const Form = () => {
     const dispatch = useDispatch()
     const contacts = useSelector(selectAll)
+    const [message, setMessage] = useState('')
     console.log(contacts);
     
 
@@ -21,6 +21,8 @@ export const Form = () => {
         const nameUpper = name.toUpperCase();
 
         const nameExist = contacts.some((contact) => {
+            console.log("contact", contact);
+            
             return contact.name.toUpperCase() === nameUpper;
         });
 
@@ -29,16 +31,17 @@ export const Form = () => {
         });
 
           if (nameExist) {
-            alert(`${name} is already in contacts!`);
+            setMessage(`${name} is already in contacts!`);
             return;
           }
 
           if (numberExist) {
-            alert(`${number} is already exist!`);
+            setMessage(`${number} is already exist!`);
             return;
           }
 
         dispatch(addContact({name, number}))
+        setMessage("");
 
         e.target.reset()
     }
@@ -68,6 +71,7 @@ export const Form = () => {
             />
 
             <button type="submit" >Add Contact</button>
+            {message && <p className={x.message}>{message}</p>}
         </form>
     )
 }

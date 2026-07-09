@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "email": "lidiiadolfin@gmail.com",
+      "password": "$2a$10$Ps3kuJ/K2FPV/DAEAIR02.OLI3X0Whf2qX95qtL2BSZFAQF5.qpQ2",
+      "name": "Lidia",
+      "id": 1
+    },
+    {
+      "email": "ttttt@ttttt.com",
+      "password": "$2a$10$EHxL508AJGNb/zqEg68OGe2qeW3GSl18mRFXeX7IRDoeKb5keW02G",
+      "name": "tttt",
+      "id": 2
+    }
+  ],
+  "contacts": []
+}

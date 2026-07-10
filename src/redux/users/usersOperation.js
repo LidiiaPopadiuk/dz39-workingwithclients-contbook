@@ -9,14 +9,11 @@ export const registerUser = createAsyncThunk(
   "users/registerUser",
   async (obj, thunkAPI) => {
     try {
-      const fetch = await axios.post(
-        "http://localhost:3001/register",
-        {
-          name: obj.name,
-          email: obj.email,
-          password: obj.password,
-        }
-      );
+      const fetch = await axios.post("http://localhost:3001/register", {
+        name: obj.name,
+        email: obj.email,
+        password: obj.password,
+      });
       const data = fetch.data;
       console.log("registration", data);
       return data;
@@ -41,6 +38,7 @@ export const loginUser = createAsyncThunk(
         // }, //* не треба бо тут ще не має токена у користувача, а також можна зробити за допомогою axios
       );
       const data = fetch.data;
+      console.log("login", data);
       return data;
     } catch (err) {
       return thunkAPI.rejectWithValue(err.response?.data || err.message);

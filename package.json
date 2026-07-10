@@ -2,7 +2,6 @@
   "name": "dz10-phonebook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lidiiapopadiuk.github.io/dz39-workingwithclients-contbook/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.3.0",
     "@reduxjs/toolkit": "^2.12.0",

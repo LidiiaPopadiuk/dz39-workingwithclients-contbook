@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dz39-workingwithclients-contbook/static/css/main.02a88110.css",
-    "main.js": "/dz39-workingwithclients-contbook/static/js/main.28f05ffc.js",
+    "main.css": "/dz39-workingwithclients-contbook/static/css/main.ed87e044.css",
+    "main.js": "/dz39-workingwithclients-contbook/static/js/main.70d08986.js",
     "static/media/fa-solid-900.woff2": "/dz39-workingwithclients-contbook/static/media/fa-solid-900.ac1705cea99da8956021.woff2",
     "static/media/fa-brands-400.woff2": "/dz39-workingwithclients-contbook/static/media/fa-brands-400.b15ea767a5cd39c641f0.woff2",
     "static/media/fa-regular-400.woff2": "/dz39-workingwithclients-contbook/static/media/fa-regular-400.c81757be2051deb920ac.woff2",
     "static/media/fa-v4compatibility.woff2": "/dz39-workingwithclients-contbook/static/media/fa-v4compatibility.cb2708b9c106180792fe.woff2",
     "index.html": "/dz39-workingwithclients-contbook/index.html",
-    "main.02a88110.css.map": "/dz39-workingwithclients-contbook/static/css/main.02a88110.css.map",
-    "main.28f05ffc.js.map": "/dz39-workingwithclients-contbook/static/js/main.28f05ffc.js.map"
+    "main.ed87e044.css.map": "/dz39-workingwithclients-contbook/static/css/main.ed87e044.css.map",
+    "main.70d08986.js.map": "/dz39-workingwithclients-contbook/static/js/main.70d08986.js.map"
   },
   "entrypoints": [
-    "static/css/main.02a88110.css",
-    "static/js/main.28f05ffc.js"
+    "static/css/main.ed87e044.css",
+    "static/js/main.70d08986.js"
   ]
 }

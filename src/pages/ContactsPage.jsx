@@ -35,7 +35,7 @@ export const ContactsPage = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchContacts());
-  }, []);
+  }, [dispatch]);
 
   return (
     <Div className="App">

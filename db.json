@@ -13,5 +13,18 @@
       "id": 2
     }
   ],
-  "contacts": []
+  "contacts": [
+    {
+      "name": "Lidiia",
+      "number": "5555",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "name": "ttttt",
+      "number": "12341231",
+      "userId": 2,
+      "id": 2
+    }
+  ]
 }

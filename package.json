@@ -2,6 +2,7 @@
   "name": "dz10-phonebook",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lidiiapopadiuk.github.io/dz39-workingwithclients-contbook/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.3.0",
     "@reduxjs/toolkit": "^2.12.0",
@@ -30,7 +31,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server db.json -m ./node_modules/json-server-auth -r routes.json --port $PORT"
+    "server": "json-server db.json -m ./node_modules/json-server-auth -r routes.json --port 3001"
   },
   "eslintConfig": {
     "extends": [

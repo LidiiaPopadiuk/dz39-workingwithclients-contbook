@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/dz39-workingwithclients-contbook/static/css/main.ed87e044.css",
-    "main.js": "/dz39-workingwithclients-contbook/static/js/main.a83e9138.js",
+    "main.js": "/dz39-workingwithclients-contbook/static/js/main.66c64e79.js",
     "static/media/fa-solid-900.woff2": "/dz39-workingwithclients-contbook/static/media/fa-solid-900.ac1705cea99da8956021.woff2",
     "static/media/fa-brands-400.woff2": "/dz39-workingwithclients-contbook/static/media/fa-brands-400.b15ea767a5cd39c641f0.woff2",
     "static/media/fa-regular-400.woff2": "/dz39-workingwithclients-contbook/static/media/fa-regular-400.c81757be2051deb920ac.woff2",
     "static/media/fa-v4compatibility.woff2": "/dz39-workingwithclients-contbook/static/media/fa-v4compatibility.cb2708b9c106180792fe.woff2",
     "index.html": "/dz39-workingwithclients-contbook/index.html",
     "main.ed87e044.css.map": "/dz39-workingwithclients-contbook/static/css/main.ed87e044.css.map",
-    "main.a83e9138.js.map": "/dz39-workingwithclients-contbook/static/js/main.a83e9138.js.map"
+    "main.66c64e79.js.map": "/dz39-workingwithclients-contbook/static/js/main.66c64e79.js.map"
   },
   "entrypoints": [
     "static/css/main.ed87e044.css",
-    "static/js/main.a83e9138.js"
+    "static/js/main.66c64e79.js"
   ]
 }
